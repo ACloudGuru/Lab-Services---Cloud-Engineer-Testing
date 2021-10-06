@@ -4,6 +4,15 @@
 Approx. time to complete: 30m
 
 ** Instructions
+The goal of this challenge is to evaluate one's familiarity with CloudFormation stacks, as well
+as cloud-oriented troubleshooting skills.  The challenge should result in a functioning CFStack
+to be saved in the appropriate outputs folder.
+
+This challenge takes approximately 30 minutes to complete
+
+Place outputs within `outputs/CloudFormation`
+
+*** Repair the Stack
 Connect to an AWS sandbox account.
 
 Repair the CloudFormation stack found in this repository at ~resources/CloudFormation/stack.json~

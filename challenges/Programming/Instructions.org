@@ -4,6 +4,10 @@
 Approx. time to complete per challenge: 5-20 minutes
 
 ** Instructions
+This collection of challenges offer a range of tests for scripting & general programming
+familiarity. Choose from the available challenges to complete; clarity of code, and
+methodology is valued more than working code in these cases. Use pseudocode if you are unfamiliar with the syntax, libraries, etc.
+
 Choose any of the challenges found in this directory. Place the outputs of
 any completed challenges within the ~outputs/Programming/Challenge-X/~ directory.
 
