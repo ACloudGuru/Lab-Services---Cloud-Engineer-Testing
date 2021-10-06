@@ -13,6 +13,7 @@ Place outputs within `outputs/AMI`
 
 *** Create Initial EC2 Instance
 Create an EC2 instance of type t3.medium from ~ami-0ef786ed948920e48~.
+The username will be ~cloud_user~, and the password will need to be set in the userdata when launching the EC2 instance.
 
 Once the image is ready, connect and run the ~install.sh~ script found in
 this repository at ~resources/AMI/install.sh~.  The script must be run as

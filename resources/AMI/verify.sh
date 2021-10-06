@@ -17,4 +17,4 @@ systemctl list-unit-files | grep enabled  | grep 'ssh\|nginx' > "${output_dir}"/
 
 # Collect history
 cat /root/.bash_history > "${output_dir}"/root-history
-cat /home/cloud_user/.bash_history > "${output_dir}"/root-history
+cat /home/cloud_user/.bash_history > "${output_dir}"/cloud_user-history

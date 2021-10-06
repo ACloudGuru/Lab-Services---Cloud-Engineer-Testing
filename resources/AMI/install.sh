@@ -80,7 +80,6 @@ then
   yum-complete-transaction -y
   yum upgrade -y
   yum autoremove -y
-  yum history new
   rm -rf /var/cache/yum
 fi
 if grep -q '^wheel' /etc/group
@@ -104,9 +103,6 @@ rm -rf /home/cloud_user/{.ssh,.cache}/
 rm -f /etc/ssh/authorized_keys
 touch /var/log/{wtmp,lastlog,secure,auth.log,btmp}
 rm -rf /home/cloud_user/.vnc/*.{pid,log}
-echo '' > /root/.bash_history
-echo '' > /home/cloud_user/.bash_history
-chown cloud_user:cloud_user /home/cloud_user/.bash_history
 unset root_tmp_pass
 unset cloud_user_tmp_pass
 rm -rf /root/script.sh
