@@ -1,0 +1,16 @@
+#+TITLE: Instructions
+
+* Programming Challenges
+Approx. time to complete per challenge: 5-20 minutes
+
+** Instructions
+Choose any of the challenges found in this directory. Place the outputs of
+any completed challenges within the ~outputs/Programming/Challenge-X/~ directory.
+
+** How are these graded?
+Challenges are not graded primarily on whether the code executes without error.
+Prioritize clarity of any code you do write, and be sure to communicate intention
+in the solutions.
+
+Pseudocode indicative of the correct solution is fine if you are
+not familiar with the required syntax/libraries to write a working solution.

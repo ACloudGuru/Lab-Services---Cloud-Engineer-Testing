@@ -4,10 +4,17 @@ Repository for Lab Services Cloud Engineer interview testing
 ## Test Structure
 The test will contain more objectives than can be completed within the time limit.
 Objectives can be completed in any order, and  may be done simultaneously.
+
 All answers & outputs requested per objective should be placed in the solutions directory,
 within the folder designated for that objective.  The specific Folders are listed within the
 individual challenge summaries below, as well as in the instructions folders within the
 ~challenges~ subdirectories.
+
+
+## How to Start
+Clone this repo locally, then create a new branch which includes your name.
+All of the instructions for these challenges assume you are working within your own branch.
+When finished, push changes up to the repo.
 
 ## Test Contents
 

@@ -1,0 +1,34 @@
+* AMI Creation Challenge
+Approx. time to complete: 30m
+
+** Instructions
+*** Create Initial EC2 Instance
+Create an EC2 instance of type t3.medium from ~ami-0ef786ed948920e48~.
+
+Once the image is ready, connect and run the ~install.sh~ script found in
+this repository at ~resources/AMI/install.sh~.
+
+After the script is run, ensure the following software is installed on the
+instance:
+
+#+begin_src
+#+end_src
+
+Ensure the following services are enabled at startup:
+#+begin_src
+#+end_src
+
+
+*** Create & Verify Image
+When the configuration is complete, proceed to make an AMI from the EC2 instance.
+
+The new AMI should delete its volumes upon termination.
+
+Once the AMI is ready, create a new EC2 instance from it.
+
+Verify the instance has the desired configuration, and run the validation script
+found in this repository at ~resources/AMI/validate.sh~
+
+
+Download the contents of ~outputs~ on the remote server, and save them to this
+repository at ~outputs/AMI/~.
