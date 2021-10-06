@@ -37,7 +37,7 @@ This challenge takes approximately 30 minutes to complete
 Place outputs within `outputs/CloudFormation`
 
 ### Programming Challenges
-This collection of challenges offer a range of tests for scripting & general programming
+This collection of challenges offers a range of tests for scripting & general programming
 familiarity. Choose from the available challenges to complete; clarity of code, and 
 methodology is valued more than working code in these cases. Use pseudocode if you are unfamiliar with the syntax, libraries, etc.
 
