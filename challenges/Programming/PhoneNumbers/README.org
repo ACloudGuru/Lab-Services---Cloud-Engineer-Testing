@@ -1,5 +1,5 @@
 
-#+TITLE: Instrucitons
+#+TITLE: Instructions
 
 * Challenge
 Given a text file ~numbers.txt~ that contains a list of phone numbers (one per line), write a one-liner bash script to print all valid phone numbers.
@@ -21,6 +21,10 @@ Your script should output the following:
 987-123-4567
 (123) 456-7890
 #+end_src
+
+
+* How to submit your answer?
+Copy your solution, and the output of your script to the ~outputs/Programming/PhoneNumbers/~ directory.
 
 * Bonus challenges
 - Make the script accept the file name as an argument
