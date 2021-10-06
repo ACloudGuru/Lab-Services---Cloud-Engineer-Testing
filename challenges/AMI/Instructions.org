@@ -52,8 +52,10 @@ The new AMI should delete its volumes upon termination.
 Once the AMI is ready, create a new EC2 instance from it.
 
 Verify the instance has the desired configuration, and run the validation script
-found in this repository at ~resources/AMI/validate.sh~
+found in this repository at ~resources/AMI/validate.sh~.  This script should also
+be run as root.
 
 
-Download the contents of ~outputs~ on the remote server, and save them to this
-repository at ~outputs/AMI/~.
+The script will create the directory ~/tmp/ami-challenge-outputs~. Download the
+newly created ~/tmp/ami-challenge-outputs~ on the remote server, and save it to
+this repository at ~outputs/AMI/~.

@@ -28,6 +28,10 @@ Your script should output the following, sorted in descending order:
 * Notes
 - don't worry about ties
 
+* How to submit your answer?
+Copy your solution, and the output of your script to the
+~outputs/Programming/WordFrequency/~ directory.
+
 * Bonus challenges
 - Solve the challenge in a one-liner *or*
 - Make the script accept the file name as an argument
