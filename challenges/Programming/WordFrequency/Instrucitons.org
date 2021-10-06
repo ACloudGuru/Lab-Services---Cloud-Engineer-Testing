@@ -1,4 +1,4 @@
-#+TITLE: Instrucitons
+#+TITLE: Instructions
 
 * Challenge
 Write a bash script to calculate the frequency of each word in the text file ~words.txt~.
