@@ -1,0 +1,62 @@
+#+TITLE: Instructions
+* AMI Creation Challenge
+Approx. time to complete: 30m
+
+** Instructions
+The goal of this challenge is to create a new AMI, with some modifications made to the
+original image.  This challenge includes the use of the AWS console, as well as some
+Linux CLI skills, and bash scripting.
+
+This challenge takes approximately 30 minutes to complete
+
+Place outputs within `outputs/AMI`
+
+*** Create Initial EC2 Instance
+Create an EC2 instance of type t3.medium from ~ami-0ef786ed948920e48~.
+The username will be ~cloud_user~, and the password will need to be set in the userdata when launching the EC2 instance.
+
+Once the image is ready, connect and run the ~install.sh~ script found in
+this repository at ~resources/AMI/install.sh~.  The script must be run as
+root.
+
+After the script is run, ensure the following software is installed on the
+instance:
+
+#+begin_src
+bzip2
+fontconfig
+gcc-c++
+git
+htop
+iftop
+libpng-devel
+make
+neofetch
+nginx
+rsync
+ruby
+ruby-devel
+#+end_src
+
+Ensure the following services are enabled at startup:
+#+begin_src
+nginx
+ssh
+#+end_src
+
+
+*** Create & Verify Image
+When the configuration is complete, proceed to make an AMI from the EC2 instance.
+
+The new AMI should delete its volumes upon termination.
+
+Once the AMI is ready, create a new EC2 instance from it.
+
+Verify the instance has the desired configuration, and run the validation script
+found in this repository at ~resources/AMI/validate.sh~.  This script should also
+be run as root.
+
+
+The script will create the directory ~/tmp/ami-challenge-outputs~. Download the
+newly created ~/tmp/ami-challenge-outputs~ on the remote server, and save it to
+this repository at ~outputs/AMI/~.

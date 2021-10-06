@@ -1,0 +1,37 @@
+#+TITLE: Instructions
+
+* Challenge
+Write a bash script to calculate the frequency of each word in the text file ~words.txt~.
+
+We can Assume:
+- ~words.txt~ contains only lowercase characters and space ~' '~ characters
+- each word must consist of lowercase characters only
+- Words are separated by one or more whitespace characters.
+
+
+* Example
+Given the following contents of ~words.txt~:
+#+begin_src
+    the day is sunny the the
+    the sunny is is
+#+end_src
+
+Your script should output the following, sorted in descending order:
+#+begin_src
+      4 the
+      3 is
+      2 sunny
+      1 day
+#+end_src
+
+
+* Notes
+- don't worry about ties
+
+* How to submit your answer?
+Copy your solution, and the output of your script to the
+~outputs/Programming/WordFrequency/~ directory.
+
+* Bonus challenges
+- Solve the challenge in a one-liner *or*
+- Make the script accept the file name as an argument
