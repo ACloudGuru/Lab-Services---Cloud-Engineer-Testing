@@ -1,0 +1,8 @@
+{
+   "version":3,
+   "team":"tech_cloud_labs_support",
+   "jira-project-key":"lss",
+   "slack-channel":"#help-lab-playground-questions",
+   "in-use":true,
+   "bc":"cloud-labs"
+}
